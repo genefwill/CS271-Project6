@@ -63,14 +63,14 @@ ENDM
 	instruct3		BYTE		"inputting the numbers, a list of the integers, their sum and their average number will be displayed", 0
 	numPrompt		BYTE		"Please enter a signed number: ", 0
 	error			BYTE		"ERROR: You did not enter a signed integer number or your number was too big.", 0
-	arrayDisplay	BYTE		"You entered the following numbers:", 0
+	arrayDisplay		BYTE		"You entered the following numbers:", 0
 	sumDisplay		BYTE		"The sum of these numbers is: ", 0
 	avgDisplay		BYTE		"The average is: ", 0
 	goodbyeMsg		BYTE		"Thanks for visiting, see you soon!", 0
 	spaces			BYTE		"  ", 0
 	input			BYTE		300 DUP(0)       
 	array			SDWORD		10	DUP(?)
-	sum				SDWORD		?       
+	sum			SDWORD		?       
 	average			SDWORD		? 
 	output			byte		10 DUP(0)		
 	
